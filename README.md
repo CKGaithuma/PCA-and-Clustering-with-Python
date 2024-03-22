@@ -8,10 +8,11 @@ The essence of PCA is to find the directions of maximum variance in high dimensi
 a smaller dimensional space while still retaining most of the information.
 
 <h1 style="text-align:center;">STEPS TO IMPLEMENT PCA</h1>
-- Standardize the data
-- Center the data; subtract from mean.
-- Calculate covariance matrix and eigenvectors.
-- Project the Principal Components in the direction of the eigenvectors
+
+* Standardize the data
+* Center the data; subtract from mean.
+* Calculate covariance matrix and eigenvectors.
+* Project the Principal Components in the direction of the eigenvectors
 
 
 <h1 style="text-align:center;">DATA UNDERSTANDING</h1>
@@ -60,7 +61,7 @@ From the scatter plot with horsepower on the y-axis and weight on the x-axis, wi
 * This plot provides a visual confirmation of these trends, with a few outliers and a general trend showing as weight of vehicle increases the horsepower also increases.
 
 <div style="text-align:center;">
-  <img src="images/Acceleration Vs mpg.png" alt="Acceleration Vs mpg">
+  <img src="images/Acceleration vs mpg.png" alt="Acceleration Vs mpg">
 </div>
 From the above visualization we can see Japanese vehicles generally have more economical fuel consumption i.e higher miles per gallon("mpg"). American vehicles have lower mpg rates indicating the lowest economical fuel consumption.
 
@@ -106,7 +107,7 @@ PC3 to PC11 explains the remaining 15.83% of the variance.
 Below is a visualization of the results. The visualization generates a biplot showing the first two principal components and their relationships with the original features.
 
 <div style="text-align:center;">
-  <img src="biplot.png" alt="PCA Biplot>
+  <img src="images/biplot.png" alt="PCA Biplot">
 </div>
 
 The red arrows represent the loadings of each original feature on the principal components. This visualization helps in understanding which features contribute most to the variance captured by each principal component and how the data points are distributed in the reduced-dimensional space.
